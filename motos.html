@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      ul.topnav li {
+        float: left;
+      }
+
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      ul.topnav li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      ul.topnav li.right {
+        float: right;
+      }
+
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li {
+          float: none;
+        }
+      }
+
+      .titulo1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: brown;
+      }
+      .text1 {
+        text-align: justify;
+      }
+      .imagen {
+        display: block;
+        margin: auto;
+        width: 30%;
+        height: 30%;
+      }
+      .lista{
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="topnav">
+      <li><a href="/index.html">Televisores</a></li>
+      <li><a href="/motos.html">Motos</a></li>
+      <li><a href="/refris.html">Refrigeradora</a></li>
+    </ul>
+
+    <div style="padding: 0 16px">
+      <h2 class="titulo1">Motos</h2>
+      <p class="text1">
+        El tráfico en las ciudades es un tema que preocupa y al cual dedican
+        muchos esfuerzos los Ayuntamientos para intentar hacerlo ordenado y
+        racional. El espacio es el que es y eso limita muchas de las posibles
+        acciones a hacer. Pero en las políticas municipales para la movilidad
+        urbana suele haber una gran olvidada que es la motocicleta, que aporta
+        unas ventajas relevantes por la cual debería ser promovida como un
+        elemento clave en una movilidad urbana eficiente.
+      </p>
+      <img class="imagen" src="/public/ax100.png" alt="moto" />
+      <h2>Ventajas de la moto en la movilidad urbana</h2>
+      <ul class="lista">
+        <li>
+          Un uso más racional del espacio urbano. Ya decíamos en la entrada que
+          el espacio es el que es. Gracias a las dimensiones contenidas de las
+          motos, hay un mejor aprovechamiento de ese espacio limitado. Nada más
+          irracional en una ciudad que el espacio que ocupa un coche para
+          desplazar una persona.
+        </li>
+        <li>
+          Mayor fluidez del tráfico en la ciudad. Es fácil de comprobar esta
+          ventaja. Los días lluviosos en los que hay gente que cambia su moto
+          por el coche, aumentan inmediatamente los atascos. Si todas las
+          personas que nos movemos diariamente en moto lo hiciéramos en
+          automóvil, las ciudades estarían colapsadas. Quizás sería una buena
+          manera de organizar alguna protesta algún día: colapsar las ciudades
+          con un día sin motos
+        </li>
+        <li>
+          Menor contaminación. La campaña “en moto menos CO2” lo dice muy claro.
+          Las motos contaminan mucho menos que los automóviles por lo que a
+          mayor uso de la moto hay menos contaminación ambiental en las
+          ciudades.
+        </li>
+        <li>
+          Medio de transporte asequible y popular. Hay motos baratas y, en
+          general, tienen un mantenimiento mucho más simple que los automóviles.
+          Facilitar la circulación en moto por la ciudad también tiene un
+          componente social al poner al alcance de mucha gente un medio de
+          transporte eficiente, asequible y popular.
+        </li>
+        <li>
+          Mayor facilidad de aparcamiento. Está vinculada de nuevo a las menores
+          dimensiones de las motos, lo que facilita la gestión del aparcamiento
+          en las ciudades. No hay espacio suficiente para aparcar los coches de
+          todo el mundo (limitación física) pero con una buena gestión y
+          ordenamiento se pueden aparcar las motos más fácilmente.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
